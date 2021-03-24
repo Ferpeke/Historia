@@ -1,0 +1,82 @@
+.title-card {
+  font-family: monospace;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(253, 245, 245);
+}
+.text-history::first-letter {
+  font-size: 2em;
+}
+
+.text-history {
+  font-family: monospace;
+  font-size: 15px;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+}
+
+.contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  background-color: rgba(3, 3, 84, 0.87);
+}
+
+.imagen {
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%; 
+  height: auto;
+}
+.btn_cerrar{
+  
+  width: 900px;
+}
+
+
+
+
+/* .loader-page {
+  position: fixed;
+  z-index: 25000;
+  background: rgb(255, 255, 255);
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition:all .3s ease;
+}
+.loader-page::before {
+  content: "";
+  position: absolute;
+  border: 7px solid rgb(248, 252, 15);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border-left: 7px solid rgba(236, 166, 15, 0.945);
+  border-top: 7px solid rgba(233, 155, 67, 0.795);
+  animation: rotarload 1s linear infinite;
+  transform: rotate(0deg);
+}
+@keyframes rotarload {
+    0%   {transform: rotate(0deg)}
+    100% {transform: rotate(360deg)}
+}
+.loader-page::after {
+  content: "";
+  position: absolute;
+  border: 5px solid rgba(143, 236, 56, 0.932);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border-left: 5px solid rgba(60, 240, 44, 0.808);
+  border-top: 5px solid rgba(41, 207, 96, 0.836);
+  animation: rotarload 1s ease-out infinite;
+  transform: rotate(0deg);
+} */
