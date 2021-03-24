@@ -32,7 +32,9 @@
       case 'cuatro':
         require_once 'view/Parrafo_4.php';
         break;
-      default:
+      case 'ferpeke':
+        require_once 'view/Pagina_final.php';
+      default: 
         require_once 'view/default.php';
         break;
     }
