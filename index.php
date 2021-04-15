@@ -14,7 +14,7 @@
 
 <body class="imagen">
 
-<!-- <div class="loader-page">
+  <!-- <div class="loader-page">
 </div> -->
   <?php
 
